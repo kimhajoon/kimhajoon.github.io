@@ -1,0 +1,100 @@
+/*
+font-family: 'Anek Devanagari', sans-serif;
+font-family: 'Miriam Libre', sans-serif;
+font-family: 'Space Mono', monospace;
+*/
+
+::selection{
+    background-color: #f9CE21;
+    color:black;
+}
+
+body{
+    margin: 0 10%;
+}
+.head h1{
+    font-family: "Space mono", sans-serif;
+    background-color:#f7f7f7;
+    display: block;
+    border-right:#ffffff;
+    border-left:#ffffff;
+    padding:100px 80px ;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 38px;
+    border: 2px solid #f7f7f7
+}
+
+.color-panel {
+    display:inline-block;
+    padding:10px 80px;    
+}
+
+.Gray97{
+    background-color:#f7f7f7
+}
+
+.Yellow-mustard{
+    background-color:#f9CE21
+}
+
+.Black{
+    background-color: black;
+    color:#ffffff
+}
+
+.font-container{
+    display:inline-block;
+    padding: 25px auto;
+    font-size: 20px;
+}
+
+.font-panel{
+    display:block;
+    padding:35px;
+ }
+
+ .font-label{
+    font-weight:bold;
+ }
+
+ .Space-Mono{
+    font-family:"Space Mono", monospace;
+ }
+
+ .Miriam-Libre{
+    font-family:"Miriam Libre", sans-serif;
+ }
+
+ .Anek-Devanagari{
+    font-family: "Anek Devanagari", sans-serif;
+ }
+
+ .regular{
+    font-weight:400;
+ }
+ .bold{
+    font-weight:700;
+ }
+ .italic{
+    font-style:italic;
+ }
+
+ footer{
+    font-family:"Space Mono", sans-serif;
+    text-align: center;
+ }
+
+ footer a{
+    text-decoration: solid #f9CE21 underline ;
+    transition: background-color 0.8s;
+    color:black;
+ }
+ 
+ footer a:hover{
+    background-color:#f9CE21;
+ }
+
